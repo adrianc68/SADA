@@ -1,0 +1,978 @@
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:16:27 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:37:07 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:46:59 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:47:42 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:47:46 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:47:53 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:48:03 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:48:10 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:48:16 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 12:59:52 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:00:39 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:02:01 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:05:06 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:05:28 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:05:41 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:07:15 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:15:09 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:16:56 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:17:26 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:17:37 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:22:33 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:23:03 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:24:58 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 02:00:20 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:08:08 PM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionError',
+  parent: error: the database system is starting up
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 104,
+    severity: 'FATAL',
+    code: '57P03',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postmaster.c',
+    line: '2388',
+    routine: 'ProcessStartupPacket'
+  },
+  original: error: the database system is starting up
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 104,
+    severity: 'FATAL',
+    code: '57P03',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postmaster.c',
+    line: '2388',
+    routine: 'ProcessStartupPacket'
+  },
+  level: 'fatal',
+  timestamp: '2023-04-09 01:08:52 PM',
+  message: 'the database system is starting up',
+  stack: 'SequelizeConnectionError: the database system is starting up\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:143:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:338:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:116:12\n' +
+    '    at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:40:17)\n' +
+    '    at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at addChunk (node:internal/streams/readable:324:12)\n' +
+    '    at readableAddChunk (node:internal/streams/readable:297:9)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-10 09:32:54 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionError',
+  parent: error: the database system is starting up
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 104,
+    severity: 'FATAL',
+    code: '57P03',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postmaster.c',
+    line: '2388',
+    routine: 'ProcessStartupPacket'
+  },
+  original: error: the database system is starting up
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 104,
+    severity: 'FATAL',
+    code: '57P03',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'postmaster.c',
+    line: '2388',
+    routine: 'ProcessStartupPacket'
+  },
+  level: 'fatal',
+  timestamp: '2023-04-10 09:36:35 AM',
+  message: 'the database system is starting up',
+  stack: 'SequelizeConnectionError: the database system is starting up\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:143:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:338:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:116:12\n' +
+    '    at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:40:17)\n' +
+    '    at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at addChunk (node:internal/streams/readable:324:12)\n' +
+    '    at readableAddChunk (node:internal/streams/readable:297:9)'
+}

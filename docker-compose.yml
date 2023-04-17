@@ -1,0 +1,29 @@
+version: '3.0'
+services:
+  db:
+    build:
+      context: ./data
+    restart: always
+    container_name: "database"
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=dev
+      - POSTGRES_PASSWORD=develop
+      - POSTGRES_DB=ada_db
+    volumes:
+      - ./data/db/data:/var/lib/postgresql/data
+      - ./data/db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    networks:
+      dev_network:
+        aliases:
+          - db_host
+volumes:
+  dev: {}
+networks:
+  dev_network:
+    name: dev_net
+    driver: bridge
+    ipam:
+      driver: default

@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const helmet = require("helmet");
 const cors = require("cors");
 const {logger} = require("./helpers/logger");
+const { sequelize } = require("./config/db");
 
 app.set("port", process.env.SV_PORT);
 app.set("host", process.env.SV_HOST);
@@ -19,9 +20,28 @@ app.use(morgan("dev"));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
-const connectToServer = async () => {
-	
-}
+app.use(require("./routers/user"));
+app.use(require("./routers/business"));
+app.use(require("./routers/auth"));
 
+//const { User } = require("./models/user");
+//const { Account } = require("./models/account");
+//const { Receipt } = require("./models/receipt");
+//const { Product } = require("./models/product");
+//const { SaleNote} = require("./models/saleNote");
+
+const connectToServer = async () => {
+	await sequelize.sync({ force: false}).then(() => {
+		console.log('Database synchronized successfully.');
+	}).catch(error => {
+		console.log('Error', error);
+	});
+
+	await sequelize.authenticate().then(async() => {
+		logger.info(`PostgreSQL client initialized on port ${sequelize.config.port}`);
+	}).catch(error => {
+		logger.fatal(error);
+	});
+}
 
 module.exports = { app, connectToServer}
