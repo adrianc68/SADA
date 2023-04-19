@@ -1,7 +1,7 @@
 @import 'src/styles/variables';
 
 .employees-container {
-	max-width: 1200px;
+	max-width: $breakpoint-md;
 	padding: $padding-container;
 }
 

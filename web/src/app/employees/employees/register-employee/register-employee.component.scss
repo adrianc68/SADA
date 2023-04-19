@@ -1,0 +1,9 @@
+@import 'src/styles/_variables.scss';
+
+.registerEmployee-main-container {
+  max-width: $breakpoint-lg;
+  padding: $content-padding;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
