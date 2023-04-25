@@ -20,16 +20,10 @@ const Role = sequelize.define("Role", {
 	update_date: {
 		type: DataTypes.DATE
 	},
-	id_user: {
-		type: DataTypes.INTEGER,
-	}
 }, {
 	freezeTableName: true,
 	timestamps: false
 });
-
-Role.belongsToMany(Permission, {through: RolePermission, foreignKey: "id_role"});
-Permission.belongsToMany(Role, {through: RolePermission, foreignKey: "id_permission"});
 
 module.exports = {Role}
 
