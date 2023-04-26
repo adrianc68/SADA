@@ -1,18 +1,16 @@
-const {DataTypes} = require("sequelize");
 const {sequelize} = require("../config/db");
+const {DataTypes} = require("sequelize");
 
 const UserRole = sequelize.define("UserRole", {
 	id_user: {
-		type: DataTypes.INTEGER
+		type: DataTypes.INTEGER,
 	},
 	id_role: {
-		type: DataTypes.INTEGER
+		type: DataTypes.INTEGER,
 	}
 }, {
 	freezeTableName: true,
 	timestamps: false
 });
-
-UserRole.removeAttribute("id");
 
 module.exports = {UserRole};

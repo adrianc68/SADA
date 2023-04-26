@@ -1,7 +1,31 @@
 const {sequelize} = require("../../config/db");
 const {encondeSHA256} = require("../../helpers/crypt");
 const {Account} = require("../../models/account");
+const {Role} = require("../../models/role");
 const {AccountStatusType} = require("../../models/types/accountStateType");
+const {User} = require("../../models/user");
+
+/**
+ * Get user,account data from database using email
+ * @param {*} email.
+ * @returns undefined or user data retrieved from database
+ */
+const getAccountLoginData = async (email) => {
+	const user = await User.findAll({
+		where: {
+			'$Account.email$': email
+		},
+		attributes: ["id", "name", "Account.password", "Account.email", "Account.account_state"],
+		include: [{
+			model: Account,
+			as: "Account",
+			attributes: [],
+		}],
+		plain: true,
+		raw: true
+	});
+	return user;
+};
 
 /***
  * Update account settings.
@@ -80,4 +104,4 @@ const enableAccount = async (id_user) => {
 };
 
 
-
+module.exports = {getAccountLoginData, updateAccountSettings, disableAccount, enableAccount}
