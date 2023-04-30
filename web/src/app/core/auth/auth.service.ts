@@ -1,5 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Router} from '@angular/router';
+import {map, Observable, tap} from 'rxjs';
+import {httpMessageCodes} from 'src/app/shared/models/http-message-codes';
 import {LoginResponse} from 'src/app/shared/models/loginResponse';
 import {AUTH_API} from '../httpservice/constants';
 import {HttpService} from '../httpservice/http.service';
@@ -11,7 +13,7 @@ import {LocalstorageService} from '../localstorage/localstorage.service';
 })
 export class AuthService {
 
-  private loginResponse: LoginResponse = {
+  private tokens: LoginResponse = {
     accessToken: '',
     refreshToken: ''
   }
@@ -22,36 +24,24 @@ export class AuthService {
     private router: Router
   ) {}
 
-  public login(email: string, password: string): void {
+  public login(email: string, password: string): Observable<any> {
     const body = {email, password};
-    // let datax = this.httpService.post(`${AUTH_API}`, body).subscribe((data) => {
-    //   console.log("llllllllllllll");
-    //   console.log(data);
-    //   console.log("llllllllllllll");
-    //   const response: LoginResponse = {
-    //     accessToken: data.message.accesstoken,
-    //     refreshToken: data.message.refreshToken,
-    //   }
-    //   this.localstorageService.set("accessToken", response.accessToken);
-    //   this.localstorageService.set("refreshToken", response.refreshToken);
-    //   ,
-    //   (error) => {
-    //     console.log(error);
-    //   }
-    // });
-    this.httpService.post(`${AUTH_API}`, body).subscribe({
-      next: (result) => {
-        console.log(result);
-      },
-      error: (error) => {
-        console.log(error);
-        console.log(error.error);
-        console.log(error.error.message);
-        console.log(error.error.code);
-      }
-    })
+    return this.httpService.post(`${AUTH_API}`, body).pipe(
+      tap(result => {
+        if (httpMessageCodes.OK.key === result.code) {
+          this.tokens = {
+            accessToken: result.data.accessToken,
+            refreshToken: result.data.refreshToken
+          }
+          this.saveTokens(this.tokens);
+          return result;
+        }
+      })
+    )
+  }
 
-
-
+  private saveTokens(loginResponse: LoginResponse): void {
+    this.localstorageService.set("accessToken", loginResponse.accessToken);
+    this.localstorageService.set("refreshToken", loginResponse.refreshToken);
   }
 }

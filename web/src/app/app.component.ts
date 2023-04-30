@@ -1,5 +1,4 @@
-import {Component, ErrorHandler, OnInit} from '@angular/core';
-import {AuthService} from './core/auth/auth.service';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +7,8 @@ import {AuthService} from './core/auth/auth.service';
 })
 export class AppComponent implements OnInit {
 
-  constructor(public authService: AuthService, private ErrorHandler: ErrorHandler) {}
+  constructor() {}
 
   ngOnInit(): void {
-    console.log('Hola mundo');
-    const email = "test@hotmail.com";
-    const password = "test1234";
-    this.authService.login(email, password);
   }
 }
