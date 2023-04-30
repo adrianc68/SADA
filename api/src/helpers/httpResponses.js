@@ -2,7 +2,7 @@ const {StatusCodes} = require("http-status-codes");
 const {logger} = require("./logger");
 const {validationResult} = require("express-validator");
 const {generateRandomCode} = require("./generateCode");
-const {errorCodes} = require("./constants/errorCodes");
+const {httpMessageCodes} = require("./constants/httpMessageCodes");
 
 /**
  * 400 Bad Request (Just for validations)
@@ -14,7 +14,7 @@ const {errorCodes} = require("./constants/errorCodes");
 const httpResponseValidation = (request, response, next) => {
 	const errors = validationResult(request);
 	if (!errors.isEmpty()) {
-		let payload = generatePayload("Bad Request", errorCodes.INVALID_REQUEST_PARAMS);
+		let payload = generatePayload("Bad Request", httpMessageCodes.INVALID_REQUEST_PARAMS);
 		payload.params = errors.array();
 		return response.status(StatusCodes.BAD_REQUEST).json(payload);
 	}
@@ -27,8 +27,11 @@ const httpResponseValidation = (request, response, next) => {
  * @param {*} response epresents the HTTP response
  * @param {*} message message to send the HTTP response.
  */
-const httpResponseOk = (response, code = null) => {
-	let payload = generatePayload("OK", code);
+const httpResponseOk = (response, data = null) => {
+	let payload = generatePayload("Ok", httpMessageCodes.OK);
+	if(data) {
+		payload.data = data;
+	}
 	return response.status(StatusCodes.OK).json(payload);
 }
 
@@ -61,7 +64,7 @@ const httpResponseUnauthorized = (response, code = null) => {
  * @param {*} response represents the HTTP response.
  * @param {*} code defined in errorCodes (optional)
  */
-const httpResponseForbidden = (response, code = null) => {
+const httpResponseForbidden = (response, code) => {
 	let payload = generatePayload("Forbidden", code);
 	return response.status(StatusCodes.FORBIDDEN).json(payload);
 };
@@ -139,11 +142,11 @@ const httpResponseRedirectToWeb = (response, data) => {
  * @param {*} defaultMessage set a default message if code not provided.
  * @param {*} code (optional) represents any key in errorCode.js if provided then defaultMessage is going to be overwrited.
  */
-const generatePayload = (defaultMessage, code = null) => {
+const generatePayload = (defaultMessage, code) => {
 	let payload = {
 		message: defaultMessage
 	}
-	if (code && errorCodes[code.key]) {
+	if (code && httpMessageCodes[code.key]) {
 		payload.code = code.key,
 		payload.message = code.value;
 	}

@@ -1,4 +1,4 @@
-const errorCodes = {
+const httpMessageCodes = {
 	ACCOUNT_DISABLED: {key: 'ACCOUNT_DISABLED', value: 'Tu cuenta ha sido desactivada.'},
 	PERMISSION_DENIED: {key: 'PERMISSION_DENIED', value: 'No tienes permisos para realizar esta acción'},
 	INVALID_CREDENTIALS: {key: 'INVALID_CREDENTIALS', value: 'El correo o contraseña no son correctos.'},
@@ -12,7 +12,8 @@ const errorCodes = {
 	INVALID_SESSION: {key: 'INVALID_SESSION', value: 'Tu sesión ha expirado o no es válida.'},
 	NOT_FOUND: {key: 'NOT_FOUND', value: 'El recurso solicitado no pudo ser encontrado.'},
 	TOO_MANY_REQUEST: {key: 'TOO_MANY_REQUEST', value: 'Has realizado demasiadas solicitudes para este endpoint.'},
-	UNAUTHORIZED: {key: 'UNAUTHORIZED', value: 'No estás autorizado para acceder a este recurso.'}
+	UNAUTHORIZED: {key: 'UNAUTHORIZED', value: 'No estás autorizado para acceder a este recurso.'},
+	OK: {key: 'OK', value: 'Tu petición ha sido procesada de manera exitosa'}
 }
 
-module.exports = {errorCodes}
+module.exports = {httpMessageCodes}

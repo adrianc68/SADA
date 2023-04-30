@@ -1,11 +1,10 @@
-const httpMessageCodes = require("../helpers/constants/httpMessageCodes");
 const {httpResponseOk, httpResponseInternalServerError, httpResponseUnauthorized} = require("../helpers/httpResponses");
 
 const createTokens = async (request, response) => {
 	let {email} = request.body;
 	let tokens = {
-		accessToken: "holacomoestas",
-		refreshToken: "comoestanadios"
+		accesstoken: "holacomoestas",
+		refreshtoken: "comoestanadios"
 	};
 	// try {
 	//     let userData = await getAccountLoginData(emailOrUsername);
@@ -15,7 +14,7 @@ const createTokens = async (request, response) => {
 	//     return httpResponseInternalServerError(response, error);
 	// }
 	//
-	return httpResponseOk(response, tokens);
+	return httpResponseOk(response,);
 };
 
 module.exports = {createTokens}

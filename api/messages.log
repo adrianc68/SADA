@@ -1877,3 +1877,201 @@
     '    at async getAccountLoginData (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/account.js:40:15)\n' +
     '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:8:3)'
 }
+{
+  identifier: '833d7a7abab7',
+  level: 'fatal',
+  timestamp: '2023-04-26 04:18:08 PM',
+  message: 'userData is not defined',
+  stack: 'ReferenceError: userData is not defined\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:4\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:9:3)'
+}
+{
+  identifier: '6745ac43a42c',
+  level: 'fatal',
+  timestamp: '2023-04-26 04:18:42 PM',
+  message: 'doesPasswordMatch is not defined',
+  stack: 'ReferenceError: doesPasswordMatch is not defined\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:14:4\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:9:3)'
+}
+{
+  identifier: '18c6380799e0',
+  level: 'fatal',
+  timestamp: '2023-04-26 04:22:36 PM',
+  message: 'encondePassword is not defined',
+  stack: 'ReferenceError: encondePassword is not defined\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:15:4\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:10:3)'
+}
+{
+  identifier: '145c6e76f45e',
+  level: 'fatal',
+  timestamp: '2023-04-26 04:23:46 PM',
+  message: 'passwordCrypted is not defined',
+  stack: 'ReferenceError: passwordCrypted is not defined\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:15:36\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:10:3)'
+}
+{
+  identifier: 'b096693b93e6',
+  level: 'fatal',
+  timestamp: '2023-04-26 04:24:00 PM',
+  message: 'createHash is not defined',
+  stack: 'ReferenceError: createHash is not defined\n' +
+    '    at encondeSHA256 (/Users/enigma/Desktop/SADA/api/src/helpers/crypt.js:2:18)\n' +
+    '    at doesPasswordMatch (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:31:5)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:15:8\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:10:3)'
+}
+{
+  identifier: 'e9d724d4df1e',
+  level: 'fatal',
+  timestamp: '2023-04-26 04:27:48 PM',
+  message: 'httpResponseForbidden is not defined',
+  stack: 'ReferenceError: httpResponseForbidden is not defined\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:18:5\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:10:3)'
+}
+{
+  identifier: '560162937ace',
+  level: 'fatal',
+  timestamp: '2023-04-26 05:40:15 PM',
+  message: 'httpMessageCodes is not defined',
+  stack: 'ReferenceError: httpMessageCodes is not defined\n' +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:18:44\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:10:3)'
+}
+{
+  identifier: 'a93dd4b1875a',
+  level: 'fatal',
+  timestamp: '2023-04-26 07:33:32 PM',
+  message: "Cannot read properties of null (reading 'account_status')",
+  stack: "TypeError: Cannot read properties of null (reading 'account_status')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:13:13\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:3)'
+}
+{
+  identifier: 'e3953120209a',
+  level: 'fatal',
+  timestamp: '2023-04-26 07:33:47 PM',
+  message: "Cannot read properties of null (reading 'account_status')",
+  stack: "TypeError: Cannot read properties of null (reading 'account_status')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:13:13\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:3)'
+}
+{
+  identifier: '5bc1abd670d1',
+  level: 'fatal',
+  timestamp: '2023-04-26 07:35:20 PM',
+  message: "Cannot read properties of null (reading 'account_status')",
+  stack: "TypeError: Cannot read properties of null (reading 'account_status')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:13:13\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:3)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-27 02:48:19 PM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-28 10:17:25 PM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-04-29 02:01:22 PM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}

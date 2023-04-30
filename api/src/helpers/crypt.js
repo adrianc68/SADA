@@ -1,3 +1,5 @@
+const { createHash } = require('crypto');
+
 function encondeSHA256(lines) {
     const hash = createHash('sha256');
     for (let i = 0; i < lines.length; i++) {
