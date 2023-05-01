@@ -22,7 +22,16 @@ export class AuthService {
     private httpService: HttpService,
     private localstorageService: LocalstorageService,
     private router: Router
-  ) {}
+  ) {
+    const accessToken = this.localstorageService.get('accessToken');
+    const refreshToken = this.localstorageService.get('refreshToken');
+    if (accessToken && refreshToken) {
+      this.tokens = {
+        accessToken: accessToken,
+        refreshToken: refreshToken
+      }
+    }
+  }
 
   public login(email: string, password: string): Observable<any> {
     const body = {email, password};
@@ -38,6 +47,20 @@ export class AuthService {
         }
       })
     )
+  }
+
+  public logout() {
+    this.localstorageService.remove("accessToken");
+    this.localstorageService.remove("refreshToken");
+    this.tokens = {
+      accessToken: '',
+      refreshToken: ''
+    }
+    this.router.navigate(['/login']);
+  }
+
+  public IsLogged(): boolean {
+    return Object.values(this.tokens).some(value => Boolean(value));
   }
 
   private saveTokens(loginResponse: LoginResponse): void {

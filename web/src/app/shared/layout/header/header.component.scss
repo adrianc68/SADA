@@ -1,0 +1,44 @@
+@import 'src/styles/variables';
+
+.header-container {
+	background-color: darken($color: $brand-color, $amount: 8%);
+	height: 62px;
+	display: flex;
+
+  span {
+    color: $light-color;
+  }
+
+	button {
+		padding: 10px;
+		width: auto;
+		background-color: transparent;
+
+		svg {
+			fill: $light-color;
+			color: $light-color;
+		}
+	}
+
+	.header-business-name {
+		padding: 15px;
+		min-width: 200px;
+		max-height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 25px;
+	}
+
+	.header-data {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 1rem;
+		gap: 25px;
+	}
+
+
+}
+

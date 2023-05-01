@@ -2,25 +2,13 @@
 
 .login-container {
   padding:$content-padding;
-  max-width: $breakpoint-xsl;
-  min-width: $breakpoint-xsl;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-
-  .login-title-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-top: $content-padding;
-    padding-bottom: $content-padding;
-  }
+  align-items: center;
 
   .login-form-container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    max-width: $breakpoint-xsl;
+    min-width: $breakpoint-xsl;
 
     .login-title {
       text-align: center;

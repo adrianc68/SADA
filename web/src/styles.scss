@@ -3,74 +3,93 @@
 @import './styles/variables';
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url(assets/fonts/OpenSans/OpenSans-Regular.ttf) format('truetype'),
+  font-family: 'Open Sans';
+  src: url(assets/fonts/OpenSans/OpenSans-Regular.ttf) format('truetype'),
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
 }
 
 body {
-	font-family: $font-family;
-	font-size: $font-size;
-	line-height: $line-height;
-	color: $text-color;
-	background-color: $bkground-color;
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $text-color;
+  background-color: $bkground-color;
+	width:100vw;
+  max-width: 100%;
 }
 
 a {
-	color: $link-color;
-	text-decoration: none;
+  color: $link-color;
+  text-decoration: none;
 
-	&:hover {
-		color: $hover-color;
-		text-decoration: underline;
-	}
+  &:hover {
+    color: $hover-color;
+    text-decoration: underline;
+  }
 }
 
 button {
-	width:100%;
-	border-radius: $border-radius;
-	border:none;
-	font-size:$font-size;
-	line-height: $line-height;
-	padding: 0.8rem 1rem;
-	cursor:pointer;
-	display:flex;
-	align-items: center;
-	justify-content: center;
+  width: 100%;
+  border-radius: $border-radius;
+  border: none;
+  font-size: $font-size;
+  line-height: $line-height;
+  padding: 0.8rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary-button {
-	background-color: $primary-color;
-	color: $white-color;
-	&:hover {
-		background-color: darken($primary-color, 10%);
-	}
+  background-color: $primary-color;
+  color: $white-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: 0 0 0 2px $primary-color, 0 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
 }
 
 .secondary-button {
-	background-color: $secondary-color;
-	color: $white-color;
-	&:hover {
-		background-color: darken($secondary-color, 10%);
-	}
+  background-color: $secondary-color;
+  color: $white-color;
+
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
 }
 
 .success-button {
-	background-color: $success-color;
-	color: $white-color;
-	&:hover {
-		background-color: darken($success-color, 10%);
-	}
+  background-color: $success-color;
+  color: $white-color;
+
+  &:hover {
+    background-color: darken($success-color, 10%);
+  }
 }
 
 .info-button {
   background-color: $info-color;
   color: $white-color;
+
   &:hover {
     background-color: darken($info-color, 10%);
   }
@@ -79,6 +98,7 @@ button {
 .warning-button {
   background-color: $warning-color;
   color: $white-color;
+
   &:hover {
     background-color: darken($warning-color, 10%);
   }
@@ -87,23 +107,27 @@ button {
 .danger-button {
   background-color: $danger-color;
   color: $white-color;
+
   &:hover {
     background-color: darken($danger-color, 10%);
   }
 }
 
+.error-message {
+  color: $danger-color;
+}
 
 h1 {
-	font-size: 2.2rem;
-	line-height: 3rem;
-	font-weight: 700;
-	color:$text-color;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: $text-color;
 }
 
 h2 {
   font-size: 1.8rem;
   line-height: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   color: $text-color;
 }
 
@@ -128,60 +152,66 @@ span {
 
 input,
 .input {
-	padding:0.8em;
-	// width: calc(100% - 32px);
-  width:calc(100% - 1.6em - 2px);
-	border: 1px solid $input-border-color;
-	font-size: 1em;
-	border-radius: 3px;
+  padding: 0.8em;
+  // width: calc(100% - 32px);
+  width: calc(100% - 1.6em - 2px);
+  border: 1px solid $input-border-color;
+  font-size: 1em;
+  border-radius: 3px;
 }
 
 .main-container {
-	box-shadow: $box-shadow-container;
-	background-color: $bkground-main-container-color;
-	border-radius: $border-radius;
+  box-shadow: $box-shadow-container;
+  background-color: $bkground-main-container-color;
+  border-radius: $border-radius;
 }
 
 .sub-container {
-	box-shadow: $box-shadow-container;
-	background-color: $bkground-container-color;
-	border-radius: $border-radius;
+  box-shadow: $box-shadow-container;
+  background-color: $bkground-container-color;
+  border-radius: $border-radius;
 }
 
 .mat-icon {
-	font-size: 1.2rem;
-	display:inline-block;
-  fill:#fff;
-  color:#fff;
+  font-size: 1.2rem;
+  display: inline-block;
+  fill: #fff;
+  color: #fff;
 }
 
 form {
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-direction: column;
+  padding: $content-padding;
+  width: calc(100% - (2 * $content-padding));
 
   .form-group {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:5px;
+    gap: 5px;
     margin-bottom: 1rem;
   }
 
+  label {
+    color: $secondary-color;
+  }
+
   h1 {
-    padding-top:1rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
   h2 {
     padding-top: 1rem;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
   }
 
   .form-submit {
-    margin-top:1rem;
-    display:flex;
+    margin-top: 1rem;
+    display: flex;
     flex-direction: column;
-    gap:1.2rem;
+    gap: 1.2rem;
   }
 
 }
@@ -189,15 +219,15 @@ form {
 .card-option {
   max-width: 440px;
   min-height: 100px;
-  padding:$card-padding;
-  display:flex;
+  padding: $card-padding;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 5px;
 
   div {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }

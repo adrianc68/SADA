@@ -5,11 +5,14 @@
   flex: 1 1 100%;
 }
 
-.full-layout{
+.main{
   display: flex;
   flex-grow: 2;
 }
-.main-full-layout {
-  background: #41FAF4;
+.content {
   width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
 }

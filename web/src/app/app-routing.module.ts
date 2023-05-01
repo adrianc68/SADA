@@ -1,33 +1,37 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {HomeComponent} from './components/home/home.component';
-import {LoginComponent} from './components/login/login.component';
-
-// import {AuthGuard} from './auth/auth.guard';
-// import {LoginComponent} from './auth/components/login/login.component';
-// import {EmployeesComponent} from './employees/components/employee/employees.component';
-
+import {Layouts} from './shared/layout/layouts';
+import { HomeModule} from './components/home/home.module';
+import {LoginModule} from './components/login/login.module';
+import {AuthGuard} from './core/auth/guard/auth.guard';
+import {LoginGuard} from './core/auth/guard/login.guard';
 
 const routes: Routes = [
-  // { path: 'home', component: HomeComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'home', component: HomeComponent}
-  // { path: '', data { layout: Layouts.Full},
-  // children: [
-  //   { path: 'dashboard', loadchildren: () => }
-  // ]
-// }
-
-
-
-	// {path: 'login', component: LoginComponent},
-	// {path: '', component: EmployeesComponent, canActivate: [AuthGuard]},
-	// {path: '**', redirectTo: ''}
-	//{path: 'dashboard', component:}
+  {
+    path: '',
+    redirectTo: '/login',
+    pathMatch: 'full'
+  },
+  {
+    path: "login",
+    data: { layout: Layouts.Simple},
+    canActivate: [LoginGuard],
+    loadChildren: () => LoginModule
+  },
+  {
+    path: 'home',
+    data: { layout: Layouts.Full},
+    loadChildren: () => HomeModule,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: '**',
+    redirectTo: '/home'
+  }
 ];
 
 @NgModule({
-	imports: [RouterModule.forRoot(routes)],
-	exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {}
