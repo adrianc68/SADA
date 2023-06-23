@@ -1,7 +1,10 @@
+const {Sequelize, Op} = require("sequelize");
 const {Account} = require("../../models/account");
+const {Business} = require("../../models/business");
 const {Role} = require("../../models/role");
 const {AccountStatusType} = require("../../models/types/accountStateType");
 const {User} = require("../../models/user");
+const {UserBusiness} = require("../../models/userBusiness");
 
 /**
  * Check if username exist in database.
@@ -83,5 +86,29 @@ const getAllUsers = async () => {
 	return users;
 }
 
+const getBusinessWorkingOfUser = async (id_user) => {
+	let business = [];
+	try {
+		business = await User.findAll({
+			where: {id: id_user},
+			// attributes: [],
+			attributes: ["Businesses.id", "Businesses.name", "Businesses.UserBusiness.id_role", "Businesses.UserBusiness.id_role"],
+			include: [{
+				model: Business,
+				attributes: [],
+			}, {
+				model: Role,
+				where: {
+					id: {[Op.eq]: Sequelize.col("Businesses.UserBusiness.id_role")}
+				}
+			}],
+			raw: true,
+		});
+	} catch (error) {
+		throw error;
+	}
+	return business;
+}
 
-module.exports = { getAllUsers };
+
+module.exports = {getAllUsers, getBusinessWorkingOfUser};

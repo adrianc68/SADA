@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {Router} from '@angular/router';
-import {map, Observable, tap} from 'rxjs';
+import {Observable, tap} from 'rxjs';
 import {httpMessageCodes} from 'src/app/shared/models/http-message-codes';
 import {LoginResponse} from 'src/app/shared/models/loginResponse';
 import {AUTH_API} from '../httpservice/constants';

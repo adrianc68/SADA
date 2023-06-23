@@ -1,3 +1,5 @@
+@import 'src/styles/variables';
+
 :host {
   display: flex;
   flex-direction: column;
@@ -8,11 +10,12 @@
 .main{
   display: flex;
   flex-grow: 2;
+  margin-top:$header-height;
+  margin-left: $sidebar-width;
 }
 .content {
   width: 100%;
   display:flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
 }

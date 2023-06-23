@@ -1,8 +1,10 @@
 @import 'src/styles/variables';
 
 .header-container {
-	background-color: darken($color: $brand-color, $amount: 8%);
-	height: 62px;
+	background-color: $brand-color;
+	height: $header-height;
+  width:100%;
+  position: fixed;
 	display: flex;
 
   span {

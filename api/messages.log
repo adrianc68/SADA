@@ -2075,3 +2075,1388 @@
     '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
     '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
 }
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-05-01 10:02:27 AM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  identifier: 'aa0ee662e23e',
+  level: 'fatal',
+  timestamp: '2023-05-01 07:59:36 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:30\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '1e8cd02ad1c9',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:02:36 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: 'dd2532582c87',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:02:44 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '7a928df3b33d',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:05:15 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '49e55f0ddcff',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:05:18 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '215c9a3a7f43',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:06:38 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: 'e391ed6c72c6',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:06:39 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: 'dc4c06e6ae0f',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:06:48 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '7426ed440759',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:07:18 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:31\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '0132b7b4f262',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:08:48 PM',
+  message: "Cannot access 'userData' before initialization",
+  stack: "ReferenceError: Cannot access 'userData' before initialization\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:35\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '9c93ff046b0c',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:15:13 PM',
+  message: "Cannot set properties of undefined (setting 'data')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'data')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '2777259a84ca',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:15:25 PM',
+  message: "Cannot set properties of undefined (setting 'data')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'data')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:21:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '57eb1ac99b05',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:15:34 PM',
+  message: "Cannot set properties of undefined (setting 'data')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'data')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:22:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: '042540c83c1e',
+  level: 'fatal',
+  timestamp: '2023-05-01 08:16:15 PM',
+  message: "Cannot set properties of undefined (setting 'data')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'data')\n" +
+    '    at /Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:22:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:11:18)'
+}
+{
+  identifier: 'cd6983d514a4',
+  level: 'fatal',
+  timestamp: '2023-05-01 10:07:20 PM',
+  message: 'data is not defined',
+  stack: 'ReferenceError: data is not defined\n' +
+    '    at loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:17:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  identifier: '5b062d57d5e8',
+  level: 'fatal',
+  timestamp: '2023-05-01 10:19:25 PM',
+  message: 'doesPasswordMatch is not defined',
+  stack: 'ReferenceError: doesPasswordMatch is not defined\n' +
+    '    at loginDataValidation (/Users/enigma/Desktop/SADA/api/src/controllers/validations/authDataValidation.js:20:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  identifier: 'c1b214219ce7',
+  level: 'fatal',
+  timestamp: '2023-05-01 11:14:57 PM',
+  message: 'Business is not defined',
+  stack: 'ReferenceError: Business is not defined\n' +
+    '    at getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:93:12)\n' +
+    '    at getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at param (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:365:14)\n' +
+    '    at param (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:376:14)\n' +
+    '    at Function.process_params (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:421:3)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: column User.id_user does not exist
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 111,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '670',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3651',
+    routine: 'errorMissingColumn',
+    sql: `SELECT "User"."id", "User"."name", "User"."address", "Businesses"."id" AS "Businesses.id", "Businesses"."name" AS "Businesses.name", "Businesses"."description" AS "Businesses.description", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_role" WHERE "User"."id_user" = '2';`,
+    parameters: undefined
+  },
+  original: error: column User.id_user does not exist
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 111,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '670',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3651',
+    routine: 'errorMissingColumn',
+    sql: `SELECT "User"."id", "User"."name", "User"."address", "Businesses"."id" AS "Businesses.id", "Businesses"."name" AS "Businesses.name", "Businesses"."description" AS "Businesses.description", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_role" WHERE "User"."id_user" = '2';`,
+    parameters: undefined
+  },
+  sql: `SELECT "User"."id", "User"."name", "User"."address", "Businesses"."id" AS "Businesses.id", "Businesses"."name" AS "Businesses.name", "Businesses"."description" AS "Businesses.description", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_role" WHERE "User"."id_user" = '2';`,
+  parameters: {},
+  identifier: 'a6fb053afe62',
+  level: 'fatal',
+  timestamp: '2023-05-01 11:15:08 PM',
+  message: 'column User.id_user does not exist',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:90:16)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  identifier: 'e112afd21d3d',
+  level: 'fatal',
+  timestamp: '2023-05-02 12:44:44 AM',
+  message: "Class constructor model cannot be invoked without 'new'",
+  stack: "TypeError: Class constructor model cannot be invoked without 'new'\n" +
+    '    at getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:101:20)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: column UserBusiness.id does not exist
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 113,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '88',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3651',
+    routine: 'errorMissingColumn',
+    sql: `SELECT "id_user", "id_role", "id_business" FROM "UserBusiness" AS "UserBusiness" WHERE "UserBusiness"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: column UserBusiness.id does not exist
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 113,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '88',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3651',
+    routine: 'errorMissingColumn',
+    sql: `SELECT "id_user", "id_role", "id_business" FROM "UserBusiness" AS "UserBusiness" WHERE "UserBusiness"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "id_user", "id_role", "id_business" FROM "UserBusiness" AS "UserBusiness" WHERE "UserBusiness"."id" = '1';`,
+  parameters: {},
+  identifier: 'd3da8e29e8e3',
+  level: 'fatal',
+  timestamp: '2023-05-02 12:44:56 AM',
+  message: 'column UserBusiness.id does not exist',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async UserBusiness.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:101:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  identifier: '8efef97925ee',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:14:08 AM',
+  message: 'UserBusiness is not associated to User!',
+  stack: 'SequelizeEagerLoadingError: UserBusiness is not associated to User!\n' +
+    '    at User._getIncludedAssociation (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:565:13)\n' +
+    '    at User._validateIncludedElement (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:502:53)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:421:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at User._validateIncludedElements (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:417:39)\n' +
+    '    at User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1124:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:91:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  identifier: 'e5db8e4fb357',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:14:21 AM',
+  message: 'UserBusiness is not associated to User!',
+  stack: 'SequelizeEagerLoadingError: UserBusiness is not associated to User!\n' +
+    '    at User._getIncludedAssociation (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:565:13)\n' +
+    '    at User._validateIncludedElement (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:502:53)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:421:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at User._validateIncludedElements (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:417:39)\n' +
+    '    at User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1124:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:91:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  identifier: 'd6d441cd22f8',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:15:51 AM',
+  message: 'UserBusiness is not associated to User!',
+  stack: 'SequelizeEagerLoadingError: UserBusiness is not associated to User!\n' +
+    '    at User._getIncludedAssociation (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:565:13)\n' +
+    '    at User._validateIncludedElement (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:502:53)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:421:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at User._validateIncludedElements (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:417:39)\n' +
+    '    at User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1124:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:91:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: missing FROM-clause entry for table "Businesses->Userbusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 135,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '86',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->Userbusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: missing FROM-clause entry for table "Businesses->Userbusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 135,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '86',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->Userbusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->Userbusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '86d138618182',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:41:24 AM',
+  message: 'missing FROM-clause entry for table "Businesses->Userbusiness"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:91:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: column Businesses->Roles.id_user does not exist
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 124,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3651',
+    routine: 'errorMissingColumn',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->Roles"."id_user" = '1' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: column Businesses->Roles.id_user does not exist
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 124,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3651',
+    routine: 'errorMissingColumn',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->Roles"."id_user" = '1' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->Roles"."id_user" = '1' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: 'a6a6f6d587e6',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:51:52 AM',
+  message: 'column Businesses->Roles.id_user does not exist',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:91:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  identifier: 'f502377937ad',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:52:01 AM',
+  message: 'id_role is not defined',
+  stack: 'ReferenceError: id_role is not defined\n' +
+    '    at getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:100:14)\n' +
+    '    at getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at param (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:365:14)\n' +
+    '    at param (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:376:14)\n' +
+    '    at Function.process_params (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:421:3)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid input syntax for type integer: "Businesses.id"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 119,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: '963',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '232',
+    routine: 'pg_strtoint32',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->Roles"."id_business" = 'Businesses.id' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: invalid input syntax for type integer: "Businesses.id"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 119,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: '963',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '232',
+    routine: 'pg_strtoint32',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->Roles"."id_business" = 'Businesses.id' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->Roles"."id_business" = 'Businesses.id' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '77efe01a8b39',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:53:25 AM',
+  message: 'invalid input syntax for type integer: "Businesses.id"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:91:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: missing FROM-clause entry for table "$Business"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 121,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Business"."id$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: missing FROM-clause entry for table "$Business"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 121,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Business"."id$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Business"."id$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '1a85ee05e016',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:54:28 AM',
+  message: 'missing FROM-clause entry for table "$Business"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: missing FROM-clause entry for table "$Businesses"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 123,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses"."id$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: missing FROM-clause entry for table "$Businesses"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 123,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses"."id$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses"."id$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: 'dfeb462c83e0',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:54:41 AM',
+  message: 'missing FROM-clause entry for table "$Businesses"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: argument of AND must be type boolean, not type integer
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 128,
+    severity: 'ERROR',
+    code: '42804',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_coerce.c',
+    line: '1176',
+    routine: 'coerce_to_boolean',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->UserBusiness"."id_role" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: argument of AND must be type boolean, not type integer
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 128,
+    severity: 'ERROR',
+    code: '42804',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_coerce.c',
+    line: '1176',
+    routine: 'coerce_to_boolean',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->UserBusiness"."id_role" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "Businesses->UserBusiness"."id_role" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '20341c16e5e8',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:56:09 AM',
+  message: 'argument of AND must be type boolean, not type integer',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: missing FROM-clause entry for table "$Businesses->UserBusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 137,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses->UserBusiness"."id_role$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: missing FROM-clause entry for table "$Businesses->UserBusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 137,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses->UserBusiness"."id_role$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses->UserBusiness"."id_role$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '106183170ebb',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:56:24 AM',
+  message: 'missing FROM-clause entry for table "$Businesses->UserBusiness"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: missing FROM-clause entry for table "$Businesses->UserBusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 137,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses->UserBusiness"."id_role$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: missing FROM-clause entry for table "$Businesses->UserBusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 137,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: undefined,
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3603',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses->UserBusiness"."id_role$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "$Businesses->UserBusiness"."id_role$" ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '253ad20befe6',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:57:20 AM',
+  message: 'missing FROM-clause entry for table "$Businesses->UserBusiness"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid reference to FROM-clause entry for table "UserBusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 213,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: 'Perhaps you meant to reference the table alias "Businesses->UserBusiness".',
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3592',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "UserBusiness"."id_user" = '1' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: invalid reference to FROM-clause entry for table "UserBusiness"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 213,
+    severity: 'ERROR',
+    code: '42P01',
+    detail: undefined,
+    hint: 'Perhaps you meant to reference the table alias "Businesses->UserBusiness".',
+    position: '927',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_relation.c',
+    line: '3592',
+    routine: 'errorMissingRTE',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "UserBusiness"."id_user" = '1' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Businesses->Roles"."id" AS "Businesses.Roles.id", "Businesses->Roles"."name" AS "Businesses.Roles.name", "Businesses->Roles"."creation_date" AS "Businesses.Roles.creation_date", "Businesses->Roles"."update_date" AS "Businesses.Roles.update_date", "Businesses->Roles"."id_business" AS "Businesses.Roles.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") INNER JOIN "Role" AS "Businesses->Roles" ON "Businesses"."id" = "Businesses->Roles"."id_business" AND "UserBusiness"."id_user" = '1' ) ON "User"."id" = "Businesses->UserBusiness"."id_user" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '0cfbe6e42f32',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:57:39 AM',
+  message: 'invalid reference to FROM-clause entry for table "UserBusiness"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  identifier: '928b749bf98d',
+  level: 'fatal',
+  timestamp: '2023-05-02 01:59:41 AM',
+  message: 'UserBusiness is not associated to Business!',
+  stack: 'SequelizeEagerLoadingError: UserBusiness is not associated to Business!\n' +
+    '    at Business._getIncludedAssociation (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:565:13)\n' +
+    '    at Business._validateIncludedElement (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:502:53)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:421:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Business._validateIncludedElements (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:417:39)\n' +
+    '    at User._validateIncludedElement (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:557:38)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:421:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at User._validateIncludedElements (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:417:39)\n' +
+    '    at User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1124:12)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid input syntax for type integer: "Businesses.id"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 119,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: '973',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '232',
+    routine: 'pg_strtoint32',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Roles->UserBusiness"."id_user" AS "Roles.UserBusiness.id_user", "Roles->UserBusiness"."id_role" AS "Roles.UserBusiness.id_role", "Roles->UserBusiness"."id_business" AS "Roles.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" INNER JOIN ( "UserBusiness" AS "Roles->UserBusiness" INNER JOIN "Role" AS "Roles" ON "Roles"."id" = "Roles->UserBusiness"."id_role") ON "User"."id" = "Roles->UserBusiness"."id_user" AND "Roles"."id_business" = 'Businesses.id' WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: invalid input syntax for type integer: "Businesses.id"
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 119,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: '973',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '232',
+    routine: 'pg_strtoint32',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Roles->UserBusiness"."id_user" AS "Roles.UserBusiness.id_user", "Roles->UserBusiness"."id_role" AS "Roles.UserBusiness.id_role", "Roles->UserBusiness"."id_business" AS "Roles.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" INNER JOIN ( "UserBusiness" AS "Roles->UserBusiness" INNER JOIN "Role" AS "Roles" ON "Roles"."id" = "Roles->UserBusiness"."id_role") ON "User"."id" = "Roles->UserBusiness"."id_user" AND "Roles"."id_business" = 'Businesses.id' WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Roles->UserBusiness"."id_user" AS "Roles.UserBusiness.id_user", "Roles->UserBusiness"."id_role" AS "Roles.UserBusiness.id_role", "Roles->UserBusiness"."id_business" AS "Roles.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" INNER JOIN ( "UserBusiness" AS "Roles->UserBusiness" INNER JOIN "Role" AS "Roles" ON "Roles"."id" = "Roles->UserBusiness"."id_role") ON "User"."id" = "Roles->UserBusiness"."id_user" AND "Roles"."id_business" = 'Businesses.id' WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '7e525b138901',
+  level: 'fatal',
+  timestamp: '2023-05-02 02:16:11 AM',
+  message: 'invalid input syntax for type integer: "Businesses.id"',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: error: argument of AND must be type boolean, not type integer
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 129,
+    severity: 'ERROR',
+    code: '42804',
+    detail: undefined,
+    hint: undefined,
+    position: '1151',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_coerce.c',
+    line: '1176',
+    routine: 'coerce_to_boolean',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Roles"."id" AS "Roles.id", "Roles"."name" AS "Roles.name", "Roles"."creation_date" AS "Roles.creation_date", "Roles"."update_date" AS "Roles.update_date", "Roles"."id_business" AS "Roles.id_business", "Roles->UserBusiness"."id_user" AS "Roles.UserBusiness.id_user", "Roles->UserBusiness"."id_role" AS "Roles.UserBusiness.id_role", "Roles->UserBusiness"."id_business" AS "Roles.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" INNER JOIN ( "UserBusiness" AS "Roles->UserBusiness" INNER JOIN "Role" AS "Roles" ON "Roles"."id" = "Roles->UserBusiness"."id_role") ON "User"."id" = "Roles->UserBusiness"."id_user" AND "Businesses->UserBusiness"."id_role" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  original: error: argument of AND must be type boolean, not type integer
+      at Parser.parseErrorMessage (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:287:98)
+      at Parser.handlePacket (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:126:29)
+      at Parser.parse (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/parser.js:39:38)
+      at Socket.<anonymous> (/Users/enigma/Desktop/SADA/api/node_modules/pg-protocol/dist/index.js:11:42)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+    length: 129,
+    severity: 'ERROR',
+    code: '42804',
+    detail: undefined,
+    hint: undefined,
+    position: '1151',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'parse_coerce.c',
+    line: '1176',
+    routine: 'coerce_to_boolean',
+    sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Roles"."id" AS "Roles.id", "Roles"."name" AS "Roles.name", "Roles"."creation_date" AS "Roles.creation_date", "Roles"."update_date" AS "Roles.update_date", "Roles"."id_business" AS "Roles.id_business", "Roles->UserBusiness"."id_user" AS "Roles.UserBusiness.id_user", "Roles->UserBusiness"."id_role" AS "Roles.UserBusiness.id_role", "Roles->UserBusiness"."id_business" AS "Roles.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" INNER JOIN ( "UserBusiness" AS "Roles->UserBusiness" INNER JOIN "Role" AS "Roles" ON "Roles"."id" = "Roles->UserBusiness"."id_role") ON "User"."id" = "Roles->UserBusiness"."id_user" AND "Businesses->UserBusiness"."id_role" WHERE "User"."id" = '1';`,
+    parameters: undefined
+  },
+  sql: `SELECT "Businesses"."id", "Businesses"."name", "Businesses->UserBusiness"."id_role", "Businesses->UserBusiness"."id_user" AS "Businesses.UserBusiness.id_user", "Businesses->UserBusiness"."id_role" AS "Businesses.UserBusiness.id_role", "Businesses->UserBusiness"."id_business" AS "Businesses.UserBusiness.id_business", "Roles"."id" AS "Roles.id", "Roles"."name" AS "Roles.name", "Roles"."creation_date" AS "Roles.creation_date", "Roles"."update_date" AS "Roles.update_date", "Roles"."id_business" AS "Roles.id_business", "Roles->UserBusiness"."id_user" AS "Roles.UserBusiness.id_user", "Roles->UserBusiness"."id_role" AS "Roles.UserBusiness.id_role", "Roles->UserBusiness"."id_business" AS "Roles.UserBusiness.id_business" FROM "User" AS "User" LEFT OUTER JOIN ( "UserBusiness" AS "Businesses->UserBusiness" INNER JOIN "Business" AS "Businesses" ON "Businesses"."id" = "Businesses->UserBusiness"."id_business") ON "User"."id" = "Businesses->UserBusiness"."id_user" INNER JOIN ( "UserBusiness" AS "Roles->UserBusiness" INNER JOIN "Role" AS "Roles" ON "Roles"."id" = "Roles->UserBusiness"."id_role") ON "User"."id" = "Roles->UserBusiness"."id_user" AND "Businesses->UserBusiness"."id_role" WHERE "User"."id" = '1';`,
+  parameters: {},
+  identifier: '1a27e5be41e8',
+  level: 'fatal',
+  timestamp: '2023-05-02 02:18:15 AM',
+  message: 'argument of AND must be type boolean, not type integer',
+  stack: 'Error\n' +
+    '    at Query.run (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async PostgresQueryInterface.select (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n' +
+    '    at async User.findAll (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/model.js:1140:21)\n' +
+    '    at async getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:92:14)\n' +
+    '    at async getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:14)'
+}
+{
+  identifier: '45159e285550',
+  level: 'fatal',
+  timestamp: '2023-05-02 02:19:43 AM',
+  message: 'Op is not defined',
+  stack: 'ReferenceError: Op is not defined\n' +
+    '    at getBusinessWorkingOfUser (/Users/enigma/Desktop/SADA/api/src/services/dataaccess/user.js:102:12)\n' +
+    '    at getBusinessOfUser (/Users/enigma/Desktop/SADA/api/src/controllers/user.js:19:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at param (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:365:14)\n' +
+    '    at param (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:376:14)\n' +
+    '    at Function.process_params (/Users/enigma/Desktop/SADA/api/node_modules/express/lib/router/index.js:421:3)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-06-21 10:01:03 PM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  level: 'fatal',
+  timestamp: '2023-06-21 10:15:10 PM',
+  message: 'connect ECONNREFUSED ::1:5432',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432\n' +
+    '    at Client._connectionCallback (/Users/enigma/Desktop/SADA/api/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)\n' +
+    '    at Client._handleErrorWhileConnecting (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:318:19)\n' +
+    '    at Client._handleErrorEvent (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/client.js:328:19)\n' +
+    '    at Connection.emit (node:events:513:28)\n' +
+    '    at Socket.reportStreamError (/Users/enigma/Desktop/SADA/api/node_modules/pg/lib/connection.js:57:12)\n' +
+    '    at Socket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)'
+}

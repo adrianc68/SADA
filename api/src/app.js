@@ -15,20 +15,16 @@ app.set("host", process.env.SV_HOST);
 app.disable("x-powered-by");
 app.use(helmet());
 app.use(cors());
+
+
 app.disable("etag");
 app.use(morgan("dev"));
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.use(require("./routers/user"));
 app.use(require("./routers/business"));
 app.use(require("./routers/auth"));
-
-//const { User } = require("./models/user");
-//const { Account } = require("./models/account");
-//const { Receipt } = require("./models/receipt");
-//const { Product } = require("./models/product");
-//const { SaleNote} = require("./models/saleNote");
 
 const connectToServer = async () => {
 	await sequelize.sync({ force: false}).then(() => {

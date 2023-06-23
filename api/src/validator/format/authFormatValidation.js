@@ -1,5 +1,5 @@
 const {httpResponseValidation} = require("../../helpers/httpResponses");
-const {validateEmailData, validatePasswordData, validateAccessTokenParameterData, validateRefreshTokenParameterData} = require("./validations");
+const {validateEmailData, validatePasswordData, validateAccessTokenParameterData, validateRefreshTokenParameterData, validateAuthorizationHeaderData} = require("./validations");
 
 const loginValidateFormat = [
 	validateEmailData,
@@ -23,6 +23,13 @@ const refreshTokenParameterValidateFormat = [
 	}
 ];
 
+const accessTokenAuthorizationTokenValidateFormat = [
+    validateAuthorizationHeaderData,
+    (request, response, next) => {
+        return httpResponseValidation(request, response, next);
+    }
+];
+
 module.exports = {
-	loginValidateFormat, accessTokenParameterValidateFormat, refreshTokenParameterValidateFormat
+	loginValidateFormat, accessTokenParameterValidateFormat, refreshTokenParameterValidateFormat, accessTokenAuthorizationTokenValidateFormat
 }

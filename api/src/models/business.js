@@ -19,4 +19,4 @@ const Business = sequelize.define("Business", {
 	timestamps: false,
 });
 
-module.exports = { Business };
+module.exports = {Business};

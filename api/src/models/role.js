@@ -34,7 +34,7 @@ Role.belongsTo(Business, {
 	onUpdate: "CASCADE"
 });
 
- Business.hasMany(Role, {
+Business.hasMany(Role, {
 	foreignKey: "id_business",
 	sourceKey: "id"
 });

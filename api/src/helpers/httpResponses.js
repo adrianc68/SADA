@@ -101,7 +101,7 @@ const httpResponseInternalServerError = (response, error) => {
 	error.identifier = generateRandomCode(12);
 	logger.fatal(error);
 	let payload = {
-		message: "Internal Server Error",
+		message: httpMessageCodes.SERVER_ERROR.value,
 		identifier: error.identifier
 	};
 	return response.status(StatusCodes.INTERNAL_SERVER_ERROR).json(payload);

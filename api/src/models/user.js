@@ -3,8 +3,7 @@ const {DataTypes} = require("sequelize");
 const {Account} = require("./account");
 const {Role} = require("./role");
 const {Business} = require("./business");
-const {UserBusiness} = require("./userBusiness"); 
-const {UserRole} = require("./userRole");
+const {UserBusiness} = require("./userBusiness");
 
 const User = sequelize.define("User", {
 	id: {
@@ -18,9 +17,6 @@ const User = sequelize.define("User", {
 	address: {
 		type: DataTypes.STRING
 	},
-	id_role: {
-		type: DataTypes.INTEGER
-	}
 }, {
 	timestamps: false,
 	freezeTableName: true
@@ -40,11 +36,12 @@ Account.belongsTo(User, {
 	onUpdate: "CASCADE"
 });
 
-User.belongsToMany(Role, {through: UserRole, foreignKey: "id_user"});
-Role.belongsToMany(User, {through: UserRole, foreignKey: "id_role"});
+User.belongsToMany(Role, {through: UserBusiness, foreignKey: "id_user"});
+Role.belongsToMany(User, {through: UserBusiness, foreignKey: "id_role"});
 
-User.belongsToMany(Business, {through: UserBusiness, foreignKey: "id_role"});
+User.belongsToMany(Business, {through: UserBusiness, foreignKey: "id_user"});
 Business.belongsToMany(User, {through: UserBusiness, foreignKey: "id_business"});
+
 
 module.exports = {User};
 

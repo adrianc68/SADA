@@ -1,1 +1,12 @@
-<p>sidebar works!</p>
+<div class="sidebar" [ngClass]="{'collapsed': isSidebarCollapsed}">
+  <ul>
+    <li><a href="#"><span class="mdi mdi-archive" aria-label="Botón de menú"></span><span>Inventario</span></a></li>
+    <li><a href="#"><span class="mdi mdi-basket" aria-label="Botón de menú"></span><span>Productos</span></a></li>
+    <li><a href="#"><span class="mdi mdi-barcode" aria-label="Botón de menú"></span><span>Caja</span></a></li>
+    <li><a href="#"><span class="mdi mdi-clipboard-account" aria-label="Botón de menú"></span><span>Empleados</span></a></li>
+    <li><a href="#"><span class="mdi mdi-chart-box" aria-label="Botón de menú"></span><span>Reportes</span></a></li>
+    <li><a href="#"><span class="mdi mdi-poll" aria-label="Botón de menú"></span><span>Gráficas</span></a></li>
+    <li><a href="#"><span class="mdi mdi-book" aria-label="Botón de menú"></span><span>Comprobantes</span></a></li>
+    <li><a href="#"><span class="mdi mdi-cog" aria-label="Botón de menú"></span><span>Ajustes</span></a></li>
+  </ul>
+</div>

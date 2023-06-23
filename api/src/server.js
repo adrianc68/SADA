@@ -1,8 +1,6 @@
 const {logger} = require("./helpers/logger")
 const {app, connectToServer} = require("./app")
 
-
-
 const server = app.listen({
 	port: app.get("port"),
 	host: app.get("host")
@@ -23,4 +21,4 @@ async function delayConnectToServer() {
 }
 
 
-module.exports = { server, delayConnectToServer }
+module.exports = {server, delayConnectToServer}
