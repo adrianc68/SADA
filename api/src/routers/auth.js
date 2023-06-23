@@ -10,4 +10,7 @@ router.post("/authentication/login",
 	createTokens
 );
 
+// router.delete("/authentication/logout",
+// )
+
 module.exports = router;

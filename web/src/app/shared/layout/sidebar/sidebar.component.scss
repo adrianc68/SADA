@@ -9,7 +9,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  transition: all 0.5s ease-in-out;
+  transition: width 0.2s ease-in;
+  overflow: hidden;
 
   ul {
     list-style-type: none;
@@ -25,7 +26,7 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: left;
     text-decoration: none;
 
   }
@@ -35,24 +36,23 @@
     color: white;
   }
 
-  span:nth-child(2) {
-    color: $header-text-color;
-  }
-
   span:first-child {
     fill: $header-text-color;
     color: $header-text-color;
     font-size: 1.5rem;
+    justify-content: center;
+    padding:0.2rem;
+
+  }
+
+  span:nth-child(2) {
+    color: $header-text-color;
   }
 
 }
 
 .sidebar.collapsed {
-  width: auto;
-
-  ul li a {
-    justify-content: center;
-  }
+  width: 3.9rem;
 
   ul li a span:nth-child(2) {
     width: 0px;
