@@ -11,14 +11,10 @@
     color: $light-color;
   }
 
-	button {
-		width: auto;
-    background-color: transparent;
-		svg {
-			fill: $light-color;
-			color: $light-color;
-		}
-	}
+  button {
+    padding:1rem;
+    font-size: 2rem;
+  }
 
 	.header-business-name {
 		min-width: 200px;
@@ -34,6 +30,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
+
+    a {
+      text-decoration: none;
+    }
 	}
 
   .header-business-name,

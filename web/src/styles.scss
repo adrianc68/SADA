@@ -19,7 +19,7 @@ body {
   line-height: $line-height;
   color: $text-color;
   background-color: $bkground-color;
-	width:100vw;
+  width: 100vw;
   max-width: 100%;
 }
 
@@ -113,6 +113,18 @@ button {
   }
 }
 
+.transparent-button {
+  width: auto;
+  height: auto;
+  padding: 0;
+  background-color: transparent;
+
+  svg {
+    fill: $light-color;
+    color: $light-color;
+  }
+}
+
 .error-message {
   color: $danger-color;
 }
@@ -160,6 +172,17 @@ input,
   border-radius: 3px;
 }
 
+.smaller-input {
+  padding: 0;
+  width: 3rem;
+  text-align: center;
+  font-size: 1em;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
 .main-container {
   box-shadow: $box-shadow-container;
   background-color: $bkground-main-container-color;
@@ -175,8 +198,16 @@ input,
 .mat-icon {
   font-size: 1.2rem;
   display: inline-block;
+}
+
+.mat-icon.white {
   fill: #fff;
   color: #fff;
+}
+
+.mat-icon.black {
+  fill: #000;
+  color: #000;
 }
 
 form {
@@ -185,12 +216,24 @@ form {
   flex-direction: column;
   padding: $content-padding;
   width: calc(100% - (2 * $content-padding));
+  gap: 1rem;
 
   .form-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-bottom: 1rem;
+  }
+
+  .form-group.row {
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    align-items: flex-end;
+
+    .form-group {
+      width: 100%;
+    }
+
   }
 
   label {
@@ -213,8 +256,9 @@ form {
     flex-direction: column;
     gap: 1.2rem;
   }
-
 }
+
+
 
 .card-option {
   max-width: 440px;

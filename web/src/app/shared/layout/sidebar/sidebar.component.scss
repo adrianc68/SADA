@@ -52,7 +52,7 @@
 }
 
 .sidebar.collapsed {
-  width: 3.9rem;
+  width: $sidebar-width-collapsed;
 
   ul li a span:nth-child(2) {
     width: 0px;

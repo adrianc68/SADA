@@ -1,11 +1,13 @@
 <header class="header-container">
   <div class="header-business-name">
-    <button (click)="toggleSidebar()"><span class="mdi mdi-menu mat-icon" aria-label="Botón de menú"></span></button>
+    <button class="transparent-button" (click)="toggleSidebar()"><span class="mdi mdi-menu mat-icon white"
+        aria-label="Botón de menú"></span></button>
     <span>Imprime tu logo</span>
   </div>
   <div class="header-data">
-    <span>Mi perfil</span>
-    <button (click)="logout()"><span class="mdi mdi-logout mat-icon"
+    <a href="/settings"> <span>Mi perfil</span></a>
+
+    <button class="transparent-button" (click)="logout()"><span class="mdi mdi-logout mat-icon white"
         aria-label="Botón para salir de sesión"></span></button>
   </div>
 </header>

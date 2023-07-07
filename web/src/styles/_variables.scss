@@ -23,6 +23,7 @@ $bkground-container-color: #ffffff;
 $box-shadow-container: rgba(9, 30, 66, 0.25) 0 1px 1px,
 	rgba(9, 30, 66, 0.13) 0 0 1px 1px;
 $border-radius: 3px;
+$border-color: rgba(9,30,66,0.10);
 
 
 $font-size: 1rem;
@@ -38,6 +39,7 @@ $card-padding: 15px;
 $header-height: 62px;
 $footer-height: 62px;
 $sidebar-width: 200px;
+$sidebar-width-collapsed: 3.9rem;
 
 $breakpoint-xss: 320px;
 $breakpoint-xsl: 350px;

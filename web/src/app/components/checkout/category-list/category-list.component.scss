@@ -1,0 +1,22 @@
+@import 'src/styles/variables';
+
+li {
+  list-style: none;
+  border-top: 0.5px solid $border-color;
+  border-bottom: 0.5px solid $border-color;
+  padding: $card-padding;
+}
+
+.card-option {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  p {
+    text-align: center;
+  }
+
+}

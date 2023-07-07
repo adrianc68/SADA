@@ -1,0 +1,81 @@
+<section class="checkout-container main-container">
+  <h1>Caja</h1>
+  <section class="checkout-products-container">
+    <div class="checkout-summary sub-container">
+      <h2>Resumen de venta</h2>
+      <table datatable [dtOptions]="dtOptions" class="row-border hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Categoria</th>
+            <th>Producto</th>
+            <th>Precio unitario</th>
+            <th>Cantidad</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of data">
+            <td>{{ data.id }}</td>
+            <td>{{ data.category }}</td>
+            <td>{{ data.product }}</td>
+            <td>{{ data.unitPrice }}</td>
+            <td>{{ data.amount }}</td>
+            <td>{{ data.action }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="checkout-products sub-container">
+      <div class="checkout-products-list">
+        <h2>Seleccionar productos</h2>
+        <ul>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+          <app-product-list></app-product-list>
+        </ul>
+      </div>
+      <div class="checkout-products-categories">
+        <h3>Categorias</h3>
+        <ul>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+          <app-category-list></app-category-list>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="checkout-actions">
+    <div class="checkout-actions-date">
+      <h3>4 de abril del 2023 8:58 PM</h3>
+      <button class="secondary-button">Cambiar</button>
+    </div>
+    <div class="checkout-actions-buttons">
+      <button class="secondary-button">Cancelar</button>
+      <button class="primary-button">Registrar</button>
+    </div>
+  </section>
+
+</section>
